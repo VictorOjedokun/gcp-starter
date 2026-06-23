@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+env/
+
+# GCP credentials — NEVER commit these
+*.json
+service-account*.json
+credentials*.json
+
+# Environment
+.env
+.env.*
+
+# IDE
+.vscode/
+.idea/
+*.DS_Store
